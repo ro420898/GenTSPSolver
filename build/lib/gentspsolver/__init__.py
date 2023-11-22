@@ -27,7 +27,3 @@ def genera_tp(k):
         if z < k:
           ternas_pitagoricas.append((x,y,z))
   return ternas_pitagoricas
-
-def my_sumone(x):
-    """A function that sum one. """
-    return x+1

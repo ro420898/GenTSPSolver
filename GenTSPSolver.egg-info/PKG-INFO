@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: GenTSPSolver
+Version: 0.1
+Summary: A Python package for something
+Home-page: https://github.com/ro420898/GenTSPSolver
+Author: ['Mendoza Daniel Eunice Daniela', 'Moctezuma Ramos Arturo', 'Rodríguez Sánchez Luis Fernando']
+Author-email: ['me336620@uaeh.edu.mx', 'mo378764@uaeh.edu.mx', 'ro420898@uaeh.edu.mx']
+License: MIT
