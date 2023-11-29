@@ -1,7 +1,0 @@
-setup.py
-GenTSPSolver.egg-info/PKG-INFO
-GenTSPSolver.egg-info/SOURCES.txt
-GenTSPSolver.egg-info/dependency_links.txt
-GenTSPSolver.egg-info/not-zip-safe
-GenTSPSolver.egg-info/top_level.txt
-gentspsolver/__init__.py
