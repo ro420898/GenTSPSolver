@@ -1,33 +1,17 @@
-def my_sum(x, y):
-    """A function that sums. """
-    return x+y
+import numpy as np
+import matplotlib.pyplot as plt
+import random
 
+# This function calculates the Euclidean distance between two cities
+def distance(city1, city2):
+    return np.sqrt((city1[0]-city2[0])**2 + (city1[1]-city2[1])**2)
 
-def my_mul(x, y):
-    """A function that multiply. """
-    return x*y
+# This function calculates the total distance of a route
+def total_distance(cities):
+    return sum([distance(cities[i-1], cities[i]) for i in range(len(cities))])
 
-import math
-
-#Calcula el máximo común divisor utilizando el algorítmo de Euclides
-def gcd(a,b):
-  while b:
-    a,b = b, a%b
-  return a
-
-#Genera las ternas pitagóricas primitivas hasta un z<k con k un número entero positivo
-def genera_tp(k):
-  ternas_pitagoricas = [] #Inicia una lista vacía para almacenar las ternas pitagóricas primitivas
-  for m in range(2, int(math.sqrt(k))):
-    for n in range(1,m):
-      if gcd(m,n) == 1: #Verifica si m y n son primos relativos (condición de primitividad)
-        x = m**2-n**2
-        y = 2*m*n
-        z = m**2+n**2
-        if z < k:
-          ternas_pitagoricas.append((x,y,z))
-  return ternas_pitagoricas
-
-def my_sumone(x):
-    """A function that sum one. """
-    return x+1
+# This function performs a crossover operation on two parent routes to generate a child route
+def crossover(parent1, parent2):
+    child = parent1[:len(parent1)//2]
+    child += [item for item in parent2 if item not in child]
+    return child
