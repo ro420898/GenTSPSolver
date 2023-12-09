@@ -44,3 +44,19 @@ def genetic_algorithm(cities, pop_size, mutation_rate, generations):
             child = mutate(child, mutation_rate)
             population.append(child)
     return min(population, key=total_distance)
+
+#This function plots the best route
+def plot_route(route):
+    # Unpack the first and second city coordinates to x and y respectively
+    x, y = zip(*route)
+
+    # Add the first city at the end of the route to close the loop
+    x = list(x) + [x[0]]
+    y = list(y) + [y[0]]
+
+    plt.figure(figsize=(10, 10))
+    plt.plot(x, y, 'xb-', markersize=10)
+    plt.title(f'Best Route - Total Distance: {total_distance(route):.2f}')
+    plt.xlabel('X Coordinate')
+    plt.ylabel('Y Coordinate')
+    plt.show()
