@@ -28,3 +28,19 @@ def mutate(route, mutation_rate):
             route[swapped] = city2
             route[swap_with] = city1
     return route
+
+# This function runs the Genetic Algorithm for the Traveling Salesman Problem
+def genetic_algorithm(cities, pop_size, mutation_rate, generations):
+    population = [random.sample(cities, len(cities)) for _ in range(pop_size)]
+    for _ in range(generations):
+        scores = [(total_distance(individual), individual) for individual in population]
+        scores.sort()
+        selected = [individual for _, individual in scores[:pop_size//2]]
+        population = selected
+        for _ in range(len(population), pop_size):
+            individual1 = population[int(random.random() * len(population))]
+            individual2 = population[int(random.random() * len(population))]
+            child = crossover(individual1, individual2)
+            child = mutate(child, mutation_rate)
+            population.append(child)
+    return min(population, key=total_distance)
