@@ -4,7 +4,7 @@ This project seeks to create an algorithm that solves the traveling salesman pro
 
 Authors: Mendoza Daniel Eunice Daniela, Moctezuma Ramos Arturo, Rodríguez Sánchez Luis Fernando.
 
-Professor: Villaroel Flores Rafael
+Professor: Villaroel Flores Rafael.
 
 Degree in Applied Mathematics.
 
