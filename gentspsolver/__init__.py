@@ -15,3 +15,16 @@ def crossover(parent1, parent2):
     child = parent1[:len(parent1)//2]
     child += [item for item in parent2 if item not in child]
     return child
+
+# This function performs a mutation operation on a route by swapping two cities with a certain mutation rate
+def mutate(route, mutation_rate):
+    for swapped in range(len(route)):
+        if(random.random() < mutation_rate):
+            swap_with = int(random.random() * len(route))
+
+            city1 = route[swapped]
+            city2 = route[swap_with]
+
+            route[swapped] = city2
+            route[swap_with] = city1
+    return route
