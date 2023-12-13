@@ -7,8 +7,25 @@ def distance(city1, city2):
     return np.sqrt((city1[0]-city2[0])**2 + (city1[1]-city2[1])**2)
 
 # This function calculates the total distance of a route
-def total_distance(cities):
-    return sum([distance(cities[i-1], cities[i]) for i in range(len(cities))])
+def total_distance(route):
+    if all(isinstance(i, tuple) for i in route):
+        # Calculate Euclidean distance
+        total = 0
+        for i in range(len(route)):
+            city1 = route[i]
+            city2 = route[(i+1)%len(route)]
+            total += np.sqrt((city1[0]-city2[0])**2 + (city1[1]-city2[1])**2)
+        return total
+    elif all(isinstance(i, str) for i in route):
+        # Calculate distance from matrix
+        total = 0
+        for i in range(len(route)):
+            city1 = route[i]
+            city2 = route[(i+1)%len(route)]
+            total += distances[city1][city2]
+        return total
+    else:
+        raise ValueError("Invalid route")
 
 # This function performs a crossover operation on two parent routes to generate a child route
 def crossover(parent1, parent2):
