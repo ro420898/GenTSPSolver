@@ -1,11 +1,13 @@
-The Traveling Salesman Problem is a combinatorial optimization problem. The classical formulation of the problem is as follows: given a list of cities and the distances between each pair of cities, the objective is to find the shortest route that visits each city exactly once and returns to the starting point.
+# Traveling Salesman Problem (TSP) Solver using Genetic Algorithm
 
-This project seeks to create an algorithm in python that solves the traveling salesman problem using genetic algorithms.
+![TSP Solver](https://mlrose.readthedocs.io/en/stable/_images/tsp1.jpg)
 
-Authors: Mendoza Daniel Eunice Daniela, Moctezuma Ramos Arturo, Rodríguez Sánchez Luis Fernando.
+## Introduction
 
-Professor: Villaroel Flores Rafael.
+This project implements a Genetic Algorithm to solve the Traveling Salesman Problem (TSP), a classic combinatorial optimization challenge. The algorithm evolves a population of routes over multiple generations, aiming to find the most optimal path that visits all cities exactly once and returns to the starting city.
 
-Degree in Applied Mathematics.
+## Authors
 
-Autonomous University of the State of Hidalgo.
+- **Mendoza, Daniel Eunice Daniela**
+- **Moctezuma Ramos, Arturo**
+- **Rodríguez Sánchez, Luis Fernando**
