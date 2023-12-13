@@ -28,6 +28,7 @@ This project implements a Genetic Algorithm to solve the Traveling Salesman Prob
 
 ## Results
   - The algorithm converges over generations to find an approximate solution to the TSP, visualized through the Matplotlib plot.
+  - https://colab.research.google.com/drive/1vHFBGC71JXE44Nk5Qfsfstq7jO9FQEod?usp=sharing&authuser=1#scrollTo=pqg1D6uH9Zcn
 
 ## Acknowledgments
   - Inspiration from genetic algorithms and their applications.
