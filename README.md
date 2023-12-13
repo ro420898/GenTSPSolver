@@ -8,7 +8,7 @@ This project implements a Genetic Algorithm to solve the Traveling Salesman Prob
 
 ## Authors
 
-- **Mendoza, Daniel Eunice Daniela**
+- **Mendoza Daniel, Eunice Daniela**
 - **Moctezuma Ramos, Arturo**
 - **Rodríguez Sánchez, Luis Fernando**
 
@@ -37,7 +37,7 @@ This project implements a Genetic Algorithm to solve the Traveling Salesman Prob
 ## Contact
 For inquiries or feedback, please contact the authors:
 
-- [Daniel Eunice Daniela Mendoza](mailto:me336620@uaeh.edu.mx)
+- [Eunice Daniela Mendoza Daniel](mailto:me336620@uaeh.edu.mx)
 - [Arturo Moctezuma Ramos](mailto:mo378764@uaeh.edu.mx)
 - [Luis Fernando Rodríguez Sánchez](mailto:ro420898@uaeh.edu.mx)
 
