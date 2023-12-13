@@ -32,7 +32,7 @@ This project implements a Genetic Algorithm to solve the Traveling Salesman Prob
 ## Acknowledgments
   - Inspiration from genetic algorithms and their applications.
 
-  - *Thanks to the authors for their contributions.*
+  - Thanks to the authors for their contributions.
 
 ## Contact
 For inquiries or feedback, please contact the authors:
