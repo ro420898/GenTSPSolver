@@ -40,3 +40,9 @@ For inquiries or feedback, please contact the authors:
 - [Daniel Eunice Daniela Mendoza](mailto:me336620@uaeh.edu.mx)
 - [Arturo Moctezuma Ramos](mailto:mo378764@uaeh.edu.mx)
 - [Luis Fernando Rodríguez Sánchez](mailto:ro420898@uaeh.edu.mx)
+
+## References
+  - Kreher, D. L., & Stinson, D. R. (1999). Combinatorial algorithms: generation, enumeration, and search. ACM SIGACT News, 30(1), 33-35.
+  - Forrest, S. (1996). Genetic algorithms. ACM computing surveys (CSUR), 28(1), 77-80.
+  - Kramer, O., & Kramer, O. (2017). Genetic algorithms (pp. 11-19). Springer International Publishing.
+  - Hoffman, K. L., Padberg, M., & Rinaldi, G. (2013). Traveling salesman problem. Encyclopedia of operations research and management science, 1, 1573-1578.
