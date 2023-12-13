@@ -60,3 +60,20 @@ def plot_route(route):
     plt.xlabel('X Coordinate')
     plt.ylabel('Y Coordinate')
     plt.show()
+
+# Example Usage
+n = 10  # Number of cities
+pop_size = 50  # Population size
+mutation_rate = 0.01  # Mutation rate
+generations = 100  # Number of generations
+
+# Generate random cities
+cities = [tuple(x) for x in np.random.rand(n, 2).tolist()]
+
+# Run Genetic Algorithm
+best_route = genetic_algorithm(cities, pop_size, mutation_rate, generations)
+
+print("Best Route:", best_route)
+print("Best Distance:", total_distance(best_route))
+
+plot_route(best_route)
