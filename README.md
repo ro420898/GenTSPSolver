@@ -1,6 +1,6 @@
 # Traveling Salesman Problem (TSP) Solver using Genetic Algorithm
 
-![TSP Solver](https://mlrose.readthedocs.io/en/stable/_images/tsp1.jpg)
+![TSP Solver](https://miro.medium.com/v2/resize:fit:828/format:webp/1*Kwns2ktbhQhVHe8l1xN0PQ.png)
 
 ## Introduction
 
@@ -42,7 +42,7 @@ For inquiries or feedback, please contact the authors:
 - [Luis Fernando Rodríguez Sánchez](mailto:ro420898@uaeh.edu.mx)
 
 ## References
-  - Kreher, D. L., & Stinson, D. R. (1999). Combinatorial algorithms: generation, enumeration, and search. ACM SIGACT News, 30(1).
-  - Forrest, S. (1996). Genetic algorithms. ACM computing surveys (CSUR), 28(1).
+  - Kreher, D. L., & Stinson, D. R. (1999). Combinatorial algorithms: generation, enumeration, and search. ACM SIGACT News.
+  - Forrest, S. (1996). Genetic algorithms. ACM computing surveys (CSUR).
   - Kramer, O., & Kramer, O. (2017). Genetic algorithms (pp. 11-19). Springer International Publishing.
   - Hoffman, K. L., Padberg, M., & Rinaldi, G. (2013). Traveling salesman problem. Encyclopedia of operations research and management science.
